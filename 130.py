@@ -25,4 +25,4 @@ def roll(d_str):
     rolls = [str(random.choice(face_values)) for i in xrange(num)]
     print(' '.join(rolls))
 
-roll("2d30")
+roll("2d30") 
